@@ -48,3 +48,48 @@ header {
     color: #758BFD;
     font-size: 32px;
 }
+
+/* Section */
+section {
+    padding: 115px 98px;
+    background: #DDEAF8;
+
+}
+
+.section_title {
+    margin-bottom: 69px;
+    color: #27187F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.figure_div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 22px;
+    row-gap: 51px;
+}
+
+figure {
+    border-radius: 10px;
+    background: #FFF;
+}
+
+figcaption {
+    color: #133B3A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin: 33px 30px;
+    height: 188px;
+    width: calc(340 / 400 *100%);
+}
